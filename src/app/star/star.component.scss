@@ -1,3 +1,18 @@
-.font-52 {
-  font-size: 52px;
+.stars-size {
+  font-size: 72px;
+}
+.outContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.containerDiv {
+  overflow: hidden;
+}
+.containerStars {
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+  background: yellow;
 }
