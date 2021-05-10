@@ -1,7 +1,8 @@
-<<<<<<< HEAD
 # star-rating
-=======
-# StarRatingGood
+   
+This' a project made in Angular. Witch an input is showed and the rating value is modified, with the star quantity.
+  
+# StarRating
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
