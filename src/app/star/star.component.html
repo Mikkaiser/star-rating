@@ -7,9 +7,11 @@
       <span class="fa fa-star stars-size"></span>
       <span class="fa fa-star stars-size"></span>
     </div>
-    <div class="containerInputs">
-      <!-- <input [(ngModel)]="rating" name="rating"> -->
-      <br>
-    </div>
+  </div>
+  <div class="containerInput">
+    <input #input (keyup)="setRating(input.value)" name="rating" placeholder="Type a rating here (1 to 5)">
+  </div>
+  <div class="connection-links">
+    <span>Repository on Github: <a href="https://github.com/Mikkaiser/star-rating">Click Here</a></span>
   </div>
 </div>

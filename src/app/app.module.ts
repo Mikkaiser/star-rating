@@ -4,13 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { StarComponent } from './star/star.component';
-import { TitleComponent } from './title/title.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StarComponent,
-    TitleComponent
   ],
   imports: [
     BrowserModule,

@@ -13,7 +13,15 @@ export class StarComponent implements OnInit{
   starWidth !: number;
   
   ngOnInit(): void {
-    this.rating = 5; //Here the rating's value is defined
+  
+  }
+
+  setRating(rating : any) : any {
+    rating = Number(rating);
+    if(rating == '' || rating > 5){
+      rating = 5;
+    }
+    this.rating = rating; //Here the rating's value is defined
     this.starWidth = this.rating * 70;
   }
 }
